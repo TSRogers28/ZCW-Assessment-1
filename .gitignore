@@ -1,4 +1,11 @@
+.idea/*
+*.iml
+target/
+lib/
+.project
+.classpath
+.settings
+.DS_Store
 .class
 *.class
 .ctxt
-*.ctxt
