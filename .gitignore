@@ -8,4 +8,4 @@ lib/
 .DS_Store
 .class
 *.class
-.ctxt
+*.ctxt
