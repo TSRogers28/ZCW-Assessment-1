@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PetTest
+comment0.text=\n\ Created\ by\ leon\ on\ 2/16/18.\n
+comment1.params=
+comment1.target=void\ testInheritance()
+comment2.params=
+comment2.target=void\ testImplementation()
+comment3.params=
+comment3.target=void\ setOwnerTest()
+comment4.params=
+comment4.target=void\ getOwnerTest()
+numComments=5

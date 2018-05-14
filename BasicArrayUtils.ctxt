@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BasicArrayUtils
+comment0.text=\n\ Created\ by\ leon\ on\ 2/16/18.\n
+comment1.params=stringArray
+comment1.target=java.lang.String\ getFirstElement(java.lang.String[])
+comment1.text=\n\ @param\ stringArray\ an\ array\ of\ String\ objects\n\ @return\ the\ first\ element\ in\ the\ array\n
+comment2.params=stringArray
+comment2.target=java.lang.String\ getSecondElement(java.lang.String[])
+comment2.text=\n\ @param\ stringArray\ an\ array\ of\ String\ objects\n\ @return\ the\ second\ element\ in\ the\ array\n
+comment3.params=stringArray
+comment3.target=java.lang.String\ getLastElement(java.lang.String[])
+comment3.text=\n\ @param\ stringArray\ an\ array\ of\ String\ objects\n\ @return\ the\ last\ element\ in\ the\ array\n
+comment4.params=stringArray
+comment4.target=java.lang.String\ getSecondToLastElement(java.lang.String[])
+comment4.text=\n\ @param\ stringArray\ an\ array\ of\ String\ objects\n\ @return\ the\ second\ to\ last\ element\ in\ the\ array\n
+numComments=5

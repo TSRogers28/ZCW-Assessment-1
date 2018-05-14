@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BasicStringUtils
+comment0.text=\n\ Created\ by\ leon\ on\ 2/16/18.\n
+comment1.params=str
+comment1.target=java.lang.String\ camelCase(java.lang.String)
+comment1.text=\n\ @param\ str\ string\ input\ from\ client\n\ @return\ string\ with\ identical\ content,\ and\ the\ first\ character\ capitalized\n
+comment2.params=str
+comment2.target=java.lang.String\ reverse(java.lang.String)
+comment2.text=\n\ @param\ str\ string\ input\ from\ client\n\ @return\ string\ with\ identical\ contents,\ in\ the\ reverse\ order\n
+comment3.params=str
+comment3.target=java.lang.String\ reverseThenCamelCase(java.lang.String)
+comment3.text=\n\ @param\ str\ string\ input\ from\ client\n\ @return\ string\ with\ identical\ contents,\ in\ reverse\ order,\ with\ first\ character\ capitalized\n
+comment4.params=str
+comment4.target=java.lang.String\ removeFirstAndLastCharacter(java.lang.String)
+comment4.text=\n\ @param\ str\ a\ string\ input\ from\ user\n\ @return\ string\ with\ identical\ contents\ excluding\ first\ and\ last\ character\n
+comment5.params=str
+comment5.target=java.lang.String\ invertCasing(java.lang.String)
+comment5.text=\n\ @param\ str\ a\ string\ input\ from\ user\n\ @return\ string\ with\ identical\ characters,\ each\ with\ opposite\ casing\n
+numComments=6

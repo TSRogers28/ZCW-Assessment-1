@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RockPaperSissorsEvaluator
+comment0.text=\n\ Created\ by\ leon\ on\ 2/16/18.\n
+comment1.params=handSign
+comment1.target=java.lang.String\ getWinningMove(java.lang.String)
+comment1.text=\n\ @param\ handSign\ a\ string\ representative\ of\ a\ hand\ sign\n\ @return\ the\ respective\ winning\ move\n
+comment2.params=handSign
+comment2.target=java.lang.String\ getLosingMove(java.lang.String)
+comment2.text=\n\ @param\ handSign\ a\ string\ representative\ of\ a\ hand\ sign\n\ @return\ the\ respective\ losing\ move\n
+comment3.params=handSignOfPlayer1\ handSignOfPlayer2
+comment3.target=java.lang.String\ getWinner(java.lang.String,\ java.lang.String)
+comment3.text=\n\ @param\ handSignOfPlayer1\ a\ string\ representative\ of\ a\ hand\ sign\ of\ a\ player\n\ @param\ handSignOfPlayer2\ a\ string\ representative\ of\ a\ hand\ sign\ of\ a\ challenger\n\ @return\ a\ string\ representative\ of\ the\ winning\ hand\ sign\ between\ the\ two\ players\n
+numComments=4

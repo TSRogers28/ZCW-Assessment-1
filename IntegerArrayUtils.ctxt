@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=IntegerArrayUtils
+comment0.text=\n\ Created\ by\ leon\ on\ 2/16/18.\n
+comment1.params=intArray
+comment1.target=java.lang.Integer\ getSum(java.lang.Integer[])
+comment1.text=\n\ @param\ intArray\ an\ array\ of\ integers\n\ @return\ the\ sum\ of\ `intArray`\n
+comment2.params=intArray
+comment2.target=java.lang.Integer\ getProduct(java.lang.Integer[])
+comment2.text=\n\ @param\ intArray\ an\ array\ of\ integers\n\ @return\ the\ product\ of\ `intArray`\n
+comment3.params=intArray
+comment3.target=java.lang.Double\ getAverage(java.lang.Integer[])
+comment3.text=\n\ @param\ intArray\ an\ array\ of\ integers\n\ @return\ the\ sum\ of\ `intArray`\ divided\ by\ number\ of\ elements\ in\ `intArray`\n
+numComments=4

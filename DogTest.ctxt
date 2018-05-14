@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=DogTest
+comment0.text=\n\ Created\ by\ leon\ on\ 2/16/18.\n
+comment1.params=
+comment1.target=void\ nullaryConstructorTest()
+comment2.params=
+comment2.target=void\ constructorWithNameTest()
+comment3.params=
+comment3.target=void\ constructorWithAgeTest()
+comment4.params=
+comment4.target=void\ constructorWithNameAndAgeTest()
+comment5.params=
+comment5.target=void\ speakTest()
+numComments=6

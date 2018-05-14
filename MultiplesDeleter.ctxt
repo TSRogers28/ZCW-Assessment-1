@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MultiplesDeleter
+comment0.text=\n\ Created\ by\ leon\ on\ 2/16/18.\n
+comment1.params=ints
+comment1.target=java.lang.Integer[]\ deleteEvens(java.lang.Integer[])
+comment1.text=\n\ @param\ ints\ array\ of\ Integer\ objects\n\ @return\ all\ ints\ which\ are\ not\ divisible\ by\ 2\n\ given\ an\ array\ of\ integers,\ named\ `ints`\ return\ an\ identical\ array\ with\ evens\ removed\n
+comment2.params=ints
+comment2.target=java.lang.Integer[]\ deleteOdds(java.lang.Integer[])
+comment2.text=\n\ @param\ ints\ array\ of\ Integer\ objects\n\ @return\ all\ ints\ which\ are\ divisible\ by\ 2\n\ given\ an\ array\ of\ integers,\ named\ `ints`\ return\ an\ identical\ array\ with\ odds\ removed\n
+comment3.params=ints
+comment3.target=java.lang.Integer[]\ deleteMultiplesOf3(java.lang.Integer[])
+comment3.text=\n\ @param\ ints\ array\ of\ Integer\ objects\n\ @return\ all\ ints\ which\ are\ not\ divisible\ by\ 3\n\ given\ an\ array\ of\ integers,\ named\ `ints`\ return\ an\ identical\ array\ with\ numbers\ indivisible\ by\ 3\ removed\n
+comment4.params=ints\ multiple
+comment4.target=java.lang.Integer[]\ deleteMultiplesOfN(java.lang.Integer[],\ int)
+comment4.text=\n\ @param\ ints\ array\ of\ Integer\ objects\n\ @param\ multiple\ the\ multiple\ to\ evaluate\ divisibility\ against\n\ @return\ all\ ints\ which\ are\ not\ divisible\ by\ the\ `multiple`\ specified\n\ given\ an\ array\ of\ integers,\ named\ `ints`\ return\ an\ identical\ array\ with\ numbers\ indivisible\ by\ `multiple`\ removed\n
+numComments=5
