@@ -16,7 +16,7 @@ public class IntegerUtils {
 
     /**
      * @param n integer value input by client
-     * @return the product of all integers between 0 and not including `n`
+     * @return the product of all integers between 1 and not including `n`
      */
     public static Integer getProductOfN(Integer n) {
         return null;

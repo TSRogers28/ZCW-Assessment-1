@@ -12,7 +12,7 @@ public class IntegerUtilsTest {
     public void getSumTest() {
         // : Given
         Integer input = 5;
-        Integer expected = 15;
+        Integer expected = 10;
 
         // : When
         Integer actual = IntegerUtils.getSumOfN(input);
@@ -24,7 +24,7 @@ public class IntegerUtilsTest {
     @Test
     public void testGetProduct() {
         // : Given
-        Integer input = 5;
+        Integer input = 6;
         Integer expected = 120;
 
         // : When
