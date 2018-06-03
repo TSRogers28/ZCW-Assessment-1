@@ -1,4 +1,4 @@
- 
+
 
 
 import org.junit.Assert;
@@ -37,11 +37,26 @@ public class RockPaperSissorsEvaluatorTest {
     }
 
     @Test
-    public void getWinnerTest() {
+    public void getWinnerTest_Player1Wins() {
         // Given
         String input1 = "rock";
         String input2 = "scissors";
         String expected = "rock";
+        RockPaperSissorsEvaluator rps = new RockPaperSissorsEvaluator();
+
+        // When
+        String actual = rps.getWinner(input1, input2);
+
+        // Then
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void getWinnerTest_Player2Wins() {
+        // Given
+        String input1 = "rock";
+        String input2 = "paper";
+        String expected = "paper";
         RockPaperSissorsEvaluator rps = new RockPaperSissorsEvaluator();
 
         // When

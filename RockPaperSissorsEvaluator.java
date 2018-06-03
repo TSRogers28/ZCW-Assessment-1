@@ -6,7 +6,7 @@
 public class RockPaperSissorsEvaluator {
     protected static final String ROCK = "rock";
     protected static final String PAPER = "paper";
-    protected static final String SCISSOR = "scissor";
+    protected static final String SCISSORS = "scissors";
 
     /**
      * @param handSign a string representative of a hand sign
