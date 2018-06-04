@@ -21,7 +21,10 @@
     * Finish by completing section 5.
         * [Palindrome](./instructions/part5/README-Palindrome.md)
 
+It is suggested you first try to compile everything, to see what tests do not have method signatures for the code they call. If you are UNABLE to get those tests to pass, you will need to either a) comment out those tests OR b) (and much better) write methods that at least cause the test to fail. (But the class compiles, which is required for PR submission).
+
 * **Frequently Asked Questions**
    * What are the `Sample Script` and `Sample Output` portions of each `README`?
       * Each `README` contains an example script which illustrates what the _output_ of calling a method with some given input.
       * The example scripts **DO NOT** demonstrate how the methods are tested, although they allude to how they _could be_ tested.
+
