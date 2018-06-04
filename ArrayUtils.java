@@ -1,4 +1,3 @@
- 
 
 /**
  * Created by leon on 2/16/18.
@@ -11,7 +10,13 @@ public class ArrayUtils {
      * Given an array of objects, named `objectArray`, and an object `objectToCount`, return the number of times the `objectToCount` appears in the `objectArray`
      */
     public static Integer getNumberOfOccurrences(Object[] objectArray, Object objectToCount) {
-        return null;
+        int count = 0;
+        for(Object x : objectArray){
+            if(x.equals(objectToCount)){
+                count++;
+            }
+        }
+        return count;
     }
 
     /**
@@ -21,7 +26,16 @@ public class ArrayUtils {
      * Given an array of objects, name `objectArray`, and an object `objectToRemove`, return an array of objects with identical contents excluding `objectToRemove`
      */
     public static Object[] removeValue(Object[] objectArray, Object objectToRemove) {
-        return null;
+        int count = getNumberOfOccurrences(objectArray, objectToRemove);
+        Object[] nOA = new Object [objectArray.length - count];
+        int j = 0;
+        for(Object x : objectArray){
+            if(!x.equals(objectToRemove)){
+                nOA[j] = x;
+                j++;
+            }
+        }
+        return nOA;
     }
 
     /**
@@ -30,9 +44,17 @@ public class ArrayUtils {
      * given an array of objects, named `objectArray` return the most frequently occuring object in the array
      */
     public static Object getMostCommon(Object[] objectArray) {
+        int count = 0;
+        int tempCount = 0;
+        
+        
+        for (int x=0; x < objectArray.length; x++){
+        
+        }
+        
+        
         return null;
     }
-
 
     /**
      * @param objectArray an array of any type of Object
@@ -50,6 +72,20 @@ public class ArrayUtils {
      * given two arrays `objectArray` and `objectArrayToAdd`, return an array containing all elements in `objectArray` and `objectArrayToAdd`
      */
     public static Object[] mergeArrays(Object[] objectArray, Object[] objectArrayToAdd) {
-        return null;
+        Object[] combinedArray = new Object[objectArrayToAdd.length + objectArray.length];
+        int j = 0;
+        int y = 0;
+
+        for(int x=0; x < objectArray.length; x++){
+            combinedArray[x] = objectArray[y];
+            y++;
+        }
+
+        for (int x=0; x < objectArrayToAdd.length; x++){
+            combinedArray[x+objectArray.length] = objectArrayToAdd[j];
+            j++;
+        }
+
+        return combinedArray;
     }
 }
