@@ -3,7 +3,7 @@
 /**
  * Created by leon on 2/16/18.
  */
-public abstract class Pet implements Animal {
+public class Pet {
     /**
      * nullary constructor
      * by default, pet has age of 0; name of "";

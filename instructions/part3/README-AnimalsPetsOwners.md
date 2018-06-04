@@ -1,6 +1,16 @@
 # AnimalsPetsOwners
 * **Objective:** To implement a `PetsOwner` which manipulates composite `Pet` objects.
 
+## Relationship
+Add the necessary code to make this relationship true:
+* A `Pet` is an abstract class which implements the interface `Animal`
+* `Dog` and `Cat` are subclasses of the `Pet` class
+  * Implement the `speak` method required by the `Animal` interface in the `Dog` and `Cat` classes
+    * The mechanism by which a `Dog` speaks is by barking; ensure a dog's `speak` method returns `Bark` as a string.
+    * The mechanism by which a `Cat` speaks is by meowing; ensure a cat's `speak` method returns `Meow` as a string.
+  * Note you need to set this relationship in order for `Dog` and `Cat` classes to compile
+
+
 ## Pet
 * Ensure each of the test cases in the class [Pet]() successfully passes upon completion of each of the method stubs in the class [PetTest]().
     * `Pet()`
@@ -10,7 +20,7 @@
     * `String getName()`
     * `Integer getAge()`
     * `void setOwner(PetOwner owner)`
-    * `PetOwner getOwner()` 
+    * `PetOwner getOwner()`
 
 
 
@@ -84,33 +94,27 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br><br><br><br><br>
 
 ### Part 4; Pet elucidation
-
 * **Dog**
     * Ensure `Dog` supports all methods of pet construction.
-    * The mechanism by which a `Dog` speaks is by barking; ensure a dog's `speak` method returns `bark` as a string.
-    
+    * The mechanism by which a `Dog` speaks is by barking; ensure a dog's `speak` method returns `Bark` as a string.
+
 * **Cat**
     * Ensure `Cat` supports all methods of pet construction.
-    * The mechanism by which a `Cat` speaks is by meowing; ensure a cat's `speak` method returns `meow` as a string.
-    
-    
-    
+    * The mechanism by which a `Cat` speaks is by meowing; ensure a cat's `speak` method returns `Meow` as a string.
+
+
+
+
+
+
+
+
+
+
+
 
 <br><br><br><br><br>
 ### Part 5; PetOwner

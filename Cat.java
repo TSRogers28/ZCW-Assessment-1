@@ -3,7 +3,7 @@
 /**
  * Created by leon on 2/16/18.
  */
-public class Cat extends Pet {
+public class Cat {
     /**
      * @param name name of this Cat
      * @param age age of this Cat
@@ -32,12 +32,5 @@ public class Cat extends Pet {
      * age is 0
      */
     public Cat() {
-    }
-
-    /**
-     * @return meow as a string
-     */
-    public String speak() {
-        return null;
     }
 }

@@ -77,6 +77,13 @@ public class CatTest {
         Assert.assertEquals(expectedName, actualName);
     }
 
+    
+    @Test
+    public void testParent() {
+        Pet pet = new Cat();
+        Assert.assertTrue(pet instanceof Animal);
+    }
+    
     @Test
     public void speakTest() {
         // Given
