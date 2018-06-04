@@ -57,14 +57,14 @@ public class PetOwnerTest {
         // Given
         Pet newPet = new Dog();
         PetOwner po = new PetOwner("", newPet);
-        Pet expected = null;
+        int expectedNumberOfPet = 0;
 
         // When
         po.removePet(newPet);
-        Pet actual = po.getPets()[0];
+        int actualNumberOfPet = po.getNumberOfPets();
 
         // Then
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(expectedNumberOfPet, actualNumberOfPet);
     }
 
     @Test
