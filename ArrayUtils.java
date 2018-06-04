@@ -1,4 +1,4 @@
-
+import java.util.HashMap;
 /**
  * Created by leon on 2/16/18.
  */
@@ -44,15 +44,10 @@ public class ArrayUtils {
      * given an array of objects, named `objectArray` return the most frequently occuring object in the array
      */
     public static Object getMostCommon(Object[] objectArray) {
-        int count = 0;
-        int tempCount = 0;
-        
-        
-        for (int x=0; x < objectArray.length; x++){
-        
-        }
-        
-        
+        Object tempObject;
+        HashMap<Object, Integer> map = new HashMap<Object, Integer>();
+        //for(int x =0; x < )
+       
         return null;
     }
 

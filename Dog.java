@@ -3,26 +3,28 @@
 /**
  * Created by leon on 2/16/18.
  */
-public class Dog {
-    /**
-     * @param name name of this Dog
-     * @param age age of this dog
-     */
+public class Dog extends Pet{
+    String name;
+    int age;
+    
     public Dog(String name, Integer age) {
-
+    super(name, age);
+    
     }
 
     /**
      * @param age age of this dog
      */
     public Dog(Integer age) {
+     super(age);   
     }
 
     /**
      * @param name name of this dog
      */
     public Dog(String name) {
-
+    super(name);
+    
     }
 
     /**
@@ -32,5 +34,12 @@ public class Dog {
      * age is 0
      */
     public Dog() {
+        this.name = "DogName";
+        
+    }
+    
+    public String speak(){
+    String output = "Bark";
+    return output;
     }
 }

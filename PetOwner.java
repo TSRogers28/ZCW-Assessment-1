@@ -3,33 +3,50 @@
 /**
  * Created by leon on 2/16/18.
  */
+import java.util.*;
 public class PetOwner {
-    /**
-     * @param name name of the owner of the Pet
-     * @param pets array of Pet object
-     */
+    String name;
+    Pet pet;
+    int numberOfPets;
+    Pet [] petCollection = new Pet[10];
     public PetOwner(String name, Pet... pets) {
+        this.name = name;
+        this.pet = pet;
     }
 
     /**
      * @param pet pet to be added to the composite collection of Pets
      */
     public void addPet(Pet pet) {
+        for(Pet s : petCollection){
+        if (s == null){
+        s = pet;
+        break;
+        }
+        }
     }
+    
 
     /**
      * @param pet pet to be removed from the composite collection Pets
      */
     public void removePet(Pet pet) {
-
-    }
+        Pet [] petCollection;
+        //for(Pet s : petCollection){
+        
+        }
+    
 
     /**
      * @param pet pet to evaluate ownership of
      * @return true if I own this pet
      */
     public Boolean isOwnerOf(Pet pet) {
-        return null;
+        Boolean answer = false;
+        for (int x = 0; x < petCollection.length; x++){
+        answer = (pet == petCollection[x]) ? true : false;
+        }
+        return answer;
     }
 
     /**
@@ -68,13 +85,17 @@ public class PetOwner {
      * @return the name property of the Pet
      */
     public String getName() {
-        return null;
+        return pet.getName();
     }
 
     /**
      * @return array representation of animals owned by this PetOwner
      */
     public Pet[] getPets() {
-        return null;
+        
+        Pet [] pets = new Pet [getNumberOfPets()];
+        return pets;
     }
-}
+    
+    }
+
